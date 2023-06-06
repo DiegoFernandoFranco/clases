@@ -1,4 +1,4 @@
-const pets = [];
+export const pets = [];
 
 export const save = async (req, res) => {
     const {name, specie} = req.body;
